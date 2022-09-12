@@ -12,6 +12,9 @@
     "dev": "tsup src/index.tsx --format cjs --watch --dts --external react",
     "lint": "eslint src/*.ts*"
   },
+  "dependencies": {
+    "react-i18next": "11.16.7"
+  },
   "devDependencies": {
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
